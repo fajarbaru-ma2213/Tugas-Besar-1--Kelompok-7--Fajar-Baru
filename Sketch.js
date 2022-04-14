@@ -1,5 +1,5 @@
-let dataapi;
-let urlfb = "https://api.openweathermap.org/data/2.5/weather?lat=-5.3263&lon=105.2814&appid=b0a56877a9703d534ecd4eecf8460a4a&units=metric"
+//let dataapi;
+//let urlfb = "https://api.openweathermap.org/data/2.5/weather?lat=-5.3263&lon=105.2814&appid=b0a56877a9703d534ecd4eecf8460a4a&units=metric"
 // data gambar
 let bgp;
 let petaa;
@@ -23,23 +23,23 @@ let urlUsia = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWbDnkw2K5DvYLuQ
 let RobotoMonoSemiBold;
 
 
-function infoCuaca (p, q, data, fontSize){
-  textSize (fontSize);
-  fill('white')
-  noStroke()
-  textFont(RobotoMonoSemiBold)
+//function infoCuaca (p, q, data, fontSize){
+  //textSize (fontSize);
+  //fill('white')
+  //noStroke()
+ // textFont(RobotoMonoSemiBold)
 
   // Nama Desa
-  text (data.name,
-        posP = p + 1060,
-        posQ = q + 1140,
-        textSize (20))
-  }
+ // text (data.name,
+       // posP = p + 1060,
+        //posQ = q + 1140,
+       // textSize (20))
+ // }
 
 
 
 function preload(){
-    dataapi = loadJSON(urlfb);
+    //dataapi = loadJSON(urlfb);
     RobotoMonoSemiBold = loadFont('RobotoMono-Bold.ttf')
     bgp = loadImage('bg.jpg')
     petaa = loadImage('peta.png')
